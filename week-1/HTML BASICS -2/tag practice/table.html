@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+
+    <style>
+      /* table{
+            border:1px solid black;
+        } */
+
+      /* table,td{
+          border:1px solid black;
+        } */
+
+      /* table,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      } */
+
+      table,td,th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- The <caption> html element specifies the caption or title of a table -->
+      <caption>
+        My First Saving
+      </caption>
+      <tr>
+        <td>Month</td>
+        <td>Saving</td>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>March</td>
+        <td>400</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>800</td>
+      </tr>
+    </table>
+    <br>
+
+    <!-- the best practice to create table in html is to divide table in three sections
+         thead, tbody, tfoot .There will be no change in output.
+         
+         the best practice to write table heading is <th> tag to make it bold instead of <td> tag -->
+
+    <table>
+      <caption>
+        My First Saving
+      </caption>
+                   <!-- thead-->
+      <thead>
+        <tr>
+          <!--  <td>Month</td>
+                <td>Saving</td> 
+           -->
+          <th>Month</th>
+          <th>Saving</th>
+        </tr>
+      </thead>
+                  <!-- tbody -->
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>300</td>
+        </tr>
+        <tr>
+          <td>March</td>
+          <td>400</td>
+        </tr>
+        <tr></tr>
+      </tbody>
+                  <!-- tooft -->
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>800</td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </body>
+</html>

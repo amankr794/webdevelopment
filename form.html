@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- Html Form-->
+    <form
+      method="GET/POST"
+      action="https://www.codehelp.in"
+      enctype="multipal/form-data"
+    >
+      <!-- Name:
+      <input type="text"> -->
+      <!-- button -->
+      <!-- <input type="submit" value="Submit Form"> -->
+
+      <!-- Different input type-->
+      <!-- <div>
+      Text:
+      <input type="text">
+    </div>
+    <div>
+        Submit Button:
+        <input type="button" value="Submiy">
+      </div>
+      <div>
+        Color:
+        <input type="color">
+      </div>
+      <div>
+        Email:
+        <input type="email">
+      </div>
+      <div>
+        Number:
+        <input type="number">
+      </div>
+      <div>
+        Date:
+        <input type="date">
+      </div>
+      <div>
+        Time:
+        <input type="time">
+      </div>
+      <div>
+        Hidden:
+        <input type="hidden" value="Delhi">
+      </div>
+      <div>
+        Reset:
+        <input type="reset" value="hi">
+      </div>
+      <div>
+        URL:
+        <input type="url">
+      </div>
+      <div>
+        Range:
+        <input type="range">
+      </div>
+      <div>
+        File:
+        <input type="file" multiple>
+      </div> -->
+
+      <!-- html input attributes -->
+      firstname:
+      <input type="text" name="fname" />
+      lastname:
+      <input type="text" name="lname" />
+      name:
+      <input type="text" name=" " />
+
+      <!-- textarea -->
+      <textarea name="" id="" cols="30" rows="10" placeholder="hi"></textarea>
+      <input type="image" src="" />
+      <br />
+      <select name="" id="" size="4" multiple>
+        <optgroup label="car">
+          <option value="audi">audi</option>
+          <option value="audi">bmw</option>
+          <option value="audi" selected>tata</option>
+        </optgroup>
+        <optgroup label="sports">
+          <option value="audi">cricket</option>
+          <option value="audi">hockey</option>
+          <option value="audi">football</option>
+        </optgroup>
+      </select>
+
+      <br />
+      <!-- radio button-->
+      <input type="radio" value="male" name="gender" />Male
+      <input type="radio" value="female" name="gender" checked />Female
+      <input type="radio" value="others" name="gender" />others <br /><br />
+      <input type="radio" value="" name="" />Male
+      <input type="radio" value="" name="" />Female
+
+      <br />
+      <br />
+
+      <!-- checkbox -->
+      <input type="checkbox" name="sports" />Cricket
+      <input type="checkbox" name="sports" />football
+      <input type="checkbox" name="sports" />hockey <br /><br />
+
+      <!-- datalist-->
+
+      <!-- label, fieldset, legend tag-->
+      <label for="fname">Firstname:</label>
+      <input type="text" id="fname" name="first_name" />
+    <br><br>
+      <!--fieldset-->
+      <fieldset>
+        <legend>basic information</legend>
+        <label for="fname">firstname</label>
+        <input type="text" name="first_name" id="fname" /><br>
+        <label for="lname">lasttname</label>
+        <input type="text" name="last_name" id="lname" />
+      </fieldset>
+      <fieldset>
+        <legend>address</legend>
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address">
+      </fieldset>
+      <div>
+        <input type="submit">
+      </div>
+
+      <!-- html data list-->
+      Search:
+      <input type="text" list="search">
+      <datalist id="search">
+        <option value="Apple">
+        <option value="Mango">
+        <option value="Orange">
+        <option value="Car">
+      </datalist>
+    </form>
+  </body>
+</html>
