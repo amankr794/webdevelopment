@@ -1,0 +1,33 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:1px solid black;
+}
+
+
+.translated{
+
+    /* translate in z-axis */
+
+    /* transform: perspective(10px) translateZ(-10px); */
+    transform: perspective(15px) translateZ(-10px);
+}
+
+
+.scaled{
+    margin-left:200px;
+
+    /*scaled in z-axis*/
+
+    /* transform: perspective(350px) scaleZ(2) rotateZ(15deg); */
+    /* transform: perspective(350px) scaleZ(2) rotateX(15deg); */
+    /* transform: perspective(350px) scaleZ(2) rotateX(15deg) rotateY(30deg); */
+    /* transform: perspective(350px) scaleZ(4) rotateX(45deg) rotateY(30deg); */
+    /* transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(30deg); */
+
+    /* rotate in z-axis */
+    transform: rotate(30deg);
+
+}
+

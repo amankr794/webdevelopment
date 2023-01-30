@@ -1,0 +1,60 @@
+/* text shadow*/
+h1{
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 3px 3px red, 5px 5px 5px green;
+    /* text-shadow: 3px 3px 3px red, 60px 0px 5px green;
+    text-shadow: 3px 3px 3px red, 60px 60px 5px green;
+    text-shadow: 3px 3px 3px red, 60px 60px 60px green; */
+}
+
+/* box shadow */
+/* .box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px;
+} */
+
+/* .box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px;
+    color: red;
+} */
+
+/* .box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px green;
+    color: red;
+} */
+
+/* blur effect in box shadow*/
+/* .box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 15px green;
+    color: red;
+} */
+
+/* multiple shadow for single box (green shadow and brown shadow)*/
+/* .box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 15px green , 15px 15px 15px brown;
+    color: red;
+} */
+
+/* changing the position of shadow by giving -ve value to horizontal shadow and vertical shadow */
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    /* box-shadow: -10px -10px 15px green , 15px 15px 15px brown; */
+    color: red;
+    box-shadow: 0px 0px 6px 6px red;
+}

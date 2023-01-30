@@ -1,0 +1,43 @@
+.box{
+    background-color: aqua;
+    /* for movement use translate() method*/
+    /* transform: translate(100px , 50px); */
+    /* transform: translate(-100px , -50px); */
+    /* only translate in x-dir */
+    /* transform: translateX(100px); */
+    /* transform: translateX(-100px); */
+    /* only translate in y-dir */
+    /* transform: translateY(50px) */
+    /* transform: translateY(-50px) */
+
+
+    /* rotate() an element through an angle*/
+    /* transform: rotate(45deg); clockwise rotation
+    transform: rotate(-45deg);   anticlockwise rotation */
+
+    /* scale() method for zoom in */
+    margin: 200px;
+    transform: scale(2,5);
+    /* transform: scale(2); */
+    /* transform: scale(3); */
+    /* transform: scale(2); */
+    /* transform: scale(100,1); */
+    /* transform: scale(1,100); */
+    /* transform: scale(2,1); */
+
+    /* we can also use floating value for zoom in*/
+    /* transform: scale(1.5,1); */
+
+    /* scaling in specific dorection */
+    /* transform: scaleX(2);
+    transform: scaleY(4); */
+
+    /* skew() method */
+    /* transform: skew(20deg); */
+    transform: skew(45deg);
+    /* transform: skew(90deg); */
+    /* transform: skew(135deg); */
+    /* transform: skew(180deg);
+    transform: skew(-180deg);   */
+    transform: skew(-45deg);  
+}

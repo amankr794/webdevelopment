@@ -30,4 +30,27 @@
 
     /*we have use multiple times css background-image property.according to specificity last wali
       css property value pick hogi and rest of all property will be overwrite */
+
+    /* flag using gradient*/
+    background-image: linear-gradient(orange,white,green);
+}
+
+/*Radial Transition*/
+.mydiv{
+  border: 1px solid black;
+  margin:10px;
+  height:400px;
+  width:200px;
+  background-image: radial-gradient(red,blue);
+  
+  /*multiple color radial transition*/
+  background-image: radial-gradient(red,blue,orange);
+
+  /* we can also decide the shape of gradient*/
+  background-image: radial-gradient(circle,red,blue,orange);
+  
+  /* we can also assign percentage to gradient*/
+  background-image: radial-gradient(yellow 5%, orange 10%, red 50%);
+  
+
 }
